@@ -1,0 +1,469 @@
+/* HOME PAGE CODING START*/
+
+
+/* Body coading started*/
+body {
+    background-image: url(images/bg.jpg);
+    background-size: 100% 550px;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+}
+
+/* Body coding ended*/
+
+
+/* navbar code started*/
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* navbar code ended*/
+
+
+/* table started*/
+#menu {
+    height: 60px;
+    width: 100%;
+
+    box-sizing: border-box;
+}
+
+/* table ended*/
+
+
+/* table columns started*/
+#menu_item {
+    text-align: center;
+    width: 20%;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/* table columns ended*/
+
+
+/*anchor tag started*/
+#HOME_ITEMS{
+    color: white;
+    text-decoration: none;
+    
+}
+
+/*anchor tag ended*/
+
+/* hover of <a> started*/
+#HOME_ITEMS:hover {
+    padding: 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+        background-color: rgb(81, 87, 111);
+    border-radius: 50px;
+    box-shadow: 0px 10px 10px white;
+
+}
+
+/* hover of <a> ended*/
+
+
+/* image tag stated*/
+#image {
+    margin-top: 13px;
+    border-radius: 50%;
+    height: 38px;
+    margin-left: 10px;
+}
+
+/* image tag ended*/
+
+/* section code started*/
+section {
+      
+    float: right;
+    background-image: url(images/section-bg.png);
+    width: 700px;
+    height: 450px;
+}
+}
+/* section code ended*/
+#Image_home{
+    height: 490px;
+    background-size: cover;
+}
+#section_div{
+    padding: 0px;
+    margin-top: 140px;
+    margin-left: 370px;
+    height: 140px;
+    width: 140px;
+    border-width: 6px;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+#LOGO{
+    text-shadow: 30px;
+    font-size: 120px;
+   margin: 0px;
+   color: white;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#LOGO_SLOGAN{
+    text-align: center;
+    margin-left: 170px;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 0px;
+}
+
+
+/* HOME PAGE CODING END*/
+
+
+
+
+
+
+/* LOGIN PAGE CODING START*/
+
+
+/* section coding start */
+fieldset{
+
+    height: 250px;
+    width: 300px;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 300px;
+    margin-top: 30px ;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px white;
+    
+}
+legend{
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px ;
+}
+
+#login_form{
+
+    color: white;
+    line-height: 30px;
+    font-size: 17px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+#USER_FORM{
+    width: 98%;
+    margin-top: 5px;
+    padding: 4px;
+    padding-left: 5px;
+    background-color: rgb(255, 255, 255,0.2);
+    color: white;
+     border: none;
+     font-size: 15px;
+ border-color: white;
+ border-radius: 5px;
+}
+
+#sbt_btn{
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    height: 35px;
+    width: 90px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 100px;
+    border: none;
+    font-weight: bold;
+    border-radius: 50px;
+    
+}
+#sbt_btn:hover{
+    background-color: rgb(0, 235, 252);
+    color: rgb(0, 0, 0);
+    
+}
+
+#signup_feild{
+    height: 400px;
+    width: 350px;
+    border-width: 3px;
+    border-color: white;
+    border-style: solid;
+    margin-left: 250px;
+    margin-top: 30px ;
+
+}
+#Signup_form{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#div2{
+    display: flex;
+    justify-content: space-between;
+}
+#hell{
+    margin-right: 40px;
+}
+#Mobile_no{
+    width: 100%;
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255,0.2);
+    color: white;
+}
+#input_tag{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 15px;
+    width: 45%;
+    background-color: rgb(255, 255, 255,0.2);
+   
+}
+#Sub_btn_2{
+    height: 40px;
+    width: 90px;
+    background-color: blue;
+    color: white;
+    margin-left: 130px;
+    margin-top: 5px;
+    border: none;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+#Sub_btn_2:hover{
+    background-color: aqua;
+    color: black;
+    box-sizing: border-box;
+}
+
+/* section coding End*/
+
+
+/* LOGIN PAGE CODING END*/
+
+/* Contact details page start*/
+#Address_all{
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    line-height: 50px;
+}
+
+/* Contact details page end*/
+
+
+/* Products page start*/
+
+#Product_section{
+
+    background-image: none;
+    height: 1500px;
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+#Product_Logos{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(255, 255, 255,0.7);
+    float: left;
+    box-sizing: border-box;
+}
+#Product_Logos_tagline{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: Georgia;
+
+}
+#logos{
+    height: 90px;
+    width: 190px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0px 10px 10px black;
+    
+}
+#logos:hover{
+    box-shadow: 0px 10px 10px grey;
+}
+#search_bar{
+    width: 50%;
+    margin-top: 40px;
+  border-radius: 5px;
+   margin-left: 25%;
+    height: 30px;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+    border: none;
+}
+#Search_btn{
+    height: 30px;
+    width: 90px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 170px;
+    border-radius: 6px;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 10px black;
+   
+}
+#Zest_products{
+    height: 450px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    float: left;
+    box-sizing: border-box;
+    
+}
+#Head_zest{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:30px ;
+}
+#Zest_div{
+        height: 280px;
+        width: 200px;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
+        float: left;
+        box-sizing: border-box;
+        margin: 34px;
+        border-radius: 10px;
+        box-shadow: 0px 10px 10px white;
+}
+#Zest_div:hover img_zest{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+#Zest_div:hover{
+    box-shadow: 0px 10px 10px grey;
+    transform: scale(1.1);
+}
+#Dove_products{
+    height: 450px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    float: left;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+#Beauty_products{
+    height: 450px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    float: left;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+#Personal_care{
+    height: 450px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    float: left;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+#Amica_organics{
+    height: 450px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    float: left;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+footer{
+    height: 50px;
+    width: 100%;
+   margin-top: 1050px;
+   float: left;
+    box-sizing: border-box;
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 15px;
+   font-family: sans-serif;
+   font-weight: bold;
+}
+#img_zest{
+    background-color: white;
+    border-radius: 10px;
+}
+#name{
+    color: white;
+    text-align: center;
+    line-height: 0px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#price{
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 9px;
+    color: white;
+    font-family: sans-serif;
+}
+#buy{
+    color: white;
+    margin-right: 9px;
+    font-family: sans-serif ;
+  
+}
+#cont{
+    display: flex;
+    padding: 0px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+
+
+
+/* products Page end*/
